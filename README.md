@@ -8,7 +8,7 @@ __The easiest method and gain time is to use the heroku web server.__
  
 In first, Sign up to heroku on their website : https://www.heroku.com.
 
-Then, download the CLI toolbelt of Heroku here : https://www.heroku.com
+Then, download the CLI toolbelt of Heroku here : https://toolbelt.heroku.com
 
 __Now, you can clone the project__
 
