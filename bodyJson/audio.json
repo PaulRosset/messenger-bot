@@ -1,0 +1,32 @@
+{
+  "object":"page",
+  "entry":[
+    {
+      "id":"422932444746934",
+      "time":"1494235629642",
+      "messaging":[
+        {
+          "sender":{
+            "id":"1311758145578149"
+          },
+          "recipient":{
+            "id":"422932444746934"
+          },
+          "timestamp":1494235288049,
+          "message":{
+            "mid":"mid.$cAAHaVP4Hv9ViGKJZ8Vb510fPxBmj",
+            "seq":61187,
+            "attachments":[
+              {
+                "type":"audio",
+                "payload":{
+                  "url":"https://cdn.fbsbx.com/v/t59.3654-21/18221306_1491703460881957_3146564281672138752_n.mp4/audioclip-1494236389000-3136.mp4?oh=989e8f0174bb30474c0534f9ff3260dd&oe=5911BB0F"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
