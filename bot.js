@@ -6,7 +6,7 @@ const app = express()
 const sendmsg = require('./utils/sendMessage.js')
 const command = require('./utils/request.js')
 
-app.set('port', (process.env.PORT_BOT || 5000))
+app.set('port', (process.env.PORT || 5000))
 
 app.use(bodyParser.urlencoded({extended: false}))
 
