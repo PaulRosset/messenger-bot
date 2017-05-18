@@ -38,7 +38,7 @@ And now :
 ```
 $ git init
 $ git add --all
-$ git commit -am "Inital commit"
+$ git commit -am "Initial commit"
 $ heroku create
 $ git push heroku master
 ```
@@ -93,7 +93,7 @@ But, your bot isn't doing much things ...
 
  To go further, meet me to [Messanger Bot Advanced](https://github.com/PaulRosset/messanger-bot-advanced.git)
  
- We will implement Wit.ai an API to understand natural language but also integrate the Strategies Pattern. 
+ We will implement __Wit.ai__ an API to understand natural language but also integrate the __Strategies Pattern__. 
 
  ## Tips
  
