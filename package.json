@@ -1,0 +1,33 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.1",
+  "description": "Messenger Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulRosset/messenger-bot.git"
+  },
+  "keywords": [
+    "javascript",
+    "ia",
+    "bot",
+    "nodejs",
+    "facebook",
+    "messenger"
+  ],
+  "author": "Paul Rosset <paulrosset96@gmail.com> (http://paulrosset.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulRosset/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/PaulRosset/messenger-bot#readme",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "lodash": "4.17.4",
+    "superagent": "3.5.2"
+  }
+}

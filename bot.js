@@ -6,7 +6,7 @@ const app = express()
 const sendmsg = require('./utils/sendMessage.js')
 const command = require('./utils/request.js')
 
-app.set('port', (process.env.PORT || 5000))
+app.set('port', 5000)
 
 app.use(bodyParser.urlencoded({extended: false}))
 
@@ -25,16 +25,15 @@ app.get('/webhook/', function (req, res) {
 
 app.post('/webhook/', function (req, res) {
 
-    let data = req.body
-    let message = data.entry[0].messaging[0].message.text
-    let sender = data.entry[0].messaging[0].sender.id
+    const data = req.body
+    const message = data.entry[0].messaging[0].message.text
+    const sender = data.entry[0].messaging[0].sender.id
 
     _.forEach(command.request, (value, key) => {
         if (_.lowerCase(message) === key) {
             sendmsg(sender, value)
         }
     })
-
     res.sendStatus(200)
 });
 
