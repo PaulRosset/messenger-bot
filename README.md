@@ -91,7 +91,7 @@ But, your bot isn't doing much things ...
 
  ## Go further
 
- To go further, meet me to [Messanger Bot Advanced](https://github.com/PaulRosset/messanger-bot-advanced.git)
+ To go further, meet me to [Messanger Bot Advanced](https://github.com/PaulRosset/messanger-bot-advanced.git) (Soon)
  
  We will implement __Wit.ai__ an API to understand natural language but also integrate the __Strategies Pattern__. 
 
