@@ -1,5 +1,7 @@
 # Messenger-bot
 
+![Latest Version released](https://img.shields.io/github/release/PaulRosset/messenger-bot.svg)
+
 Build a nodejs bot in 10 minutes !
 
 ## Setting-up the environment
